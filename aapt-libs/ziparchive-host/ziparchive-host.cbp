@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ziparchive-host" />
+		<Option pch_mode="2" />
+		<Option compiler="null" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ziparchive-host" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add option="-Wold-style-cast" />
+					<Add option="-Wno-missing-field-initializers" />
+					<Add option="-mno-ms-bitfields" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-DZLIB_CONST" />
+					<Add option="-D_WIN64" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="../base/src/include" />
+					<Add directory="../log/include" />
+					<Add directory="../utils/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../base/bin/Debug/libbase.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ziparchive-host" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add option="-Wold-style-cast" />
+					<Add option="-Wno-missing-field-initializers" />
+					<Add option="-mno-ms-bitfields" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-DZLIB_CONST" />
+					<Add option="-D_WIN64" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="../base/src/include" />
+					<Add directory="../log/include" />
+					<Add directory="../utils/include" />
+					<Add directory="../z/src" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="include/ziparchive/zip_archive.h" />
+		<Unit filename="include/ziparchive/zip_archive_stream_entry.h" />
+		<Unit filename="include/ziparchive/zip_writer.h" />
+		<Unit filename="src/entry_name_utils-inl.h" />
+		<Unit filename="src/zip_archive.cc" />
+		<Unit filename="src/zip_archive_common.h" />
+		<Unit filename="src/zip_archive_private.h" />
+		<Unit filename="src/zip_archive_stream_entry.cc" />
+		<Unit filename="src/zip_writer.cc" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

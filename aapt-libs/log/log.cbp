@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="log" />
+		<Option pch_mode="2" />
+		<Option compiler="null" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/log" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add directory="src" />
+					<Add directory="include" />
+					<Add directory="../utils/include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/log" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add directory="src" />
+					<Add directory="include" />
+					<Add directory="../utils/include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="include/log/event_tag_map.h" />
+		<Unit filename="include/log/log.h" />
+		<Unit filename="include/log/log_read.h" />
+		<Unit filename="include/log/logd.h" />
+		<Unit filename="include/log/logger.h" />
+		<Unit filename="include/log/logprint.h" />
+		<Unit filename="include/log/uio.h" />
+		<Unit filename="include/private/android_filesystem_capability.h" />
+		<Unit filename="include/private/android_filesystem_config.h" />
+		<Unit filename="include/private/android_logger.h" />
+		<Unit filename="include/private/canned_fs_config.h" />
+		<Unit filename="src/config_write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/config_write.h" />
+		<Unit filename="src/fake_log_device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fake_log_device.h" />
+		<Unit filename="src/fake_writer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/log_event_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/log_event_write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/log_portability.h" />
+		<Unit filename="src/logger.h" />
+		<Unit filename="src/logger_lock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/logger_name.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/logger_write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/uio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

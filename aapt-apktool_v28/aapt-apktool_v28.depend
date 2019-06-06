@@ -1,0 +1,2843 @@
+# depslib dependency file v1.0
+1480663805 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptassets.cpp
+	"AaptAssets.h"
+	"AaptConfig.h"
+	"AaptUtil.h"
+	"Main.h"
+	"ResourceFilter.h"
+	<utils/misc.h>
+	<utils/SortedVector.h>
+	<ctype.h>
+	<dirent.h>
+	<errno.h>
+
+1480663805 e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptassets.h
+	<androidfw/AssetManager.h>
+	<androidfw/ResourceTypes.h>
+	<stdlib.h>
+	<set>
+	<utils/KeyedVector.h>
+	<utils/RefBase.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"AaptConfig.h"
+	"Bundle.h"
+	"ConfigDescription.h"
+	"SourcePos.h"
+	"ZipFile.h"
+
+1480663697 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\assetmanager.h
+	<androidfw/Asset.h>
+	<androidfw/AssetDir.h>
+	<androidfw/ZipFileRO.h>
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String16.h>
+	<utils/String8.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+
+1480663697 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\asset.h
+	<stdio.h>
+	<sys/types.h>
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\compat.h
+	<unistd.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\errors.h
+	<sys/types.h>
+	<errno.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\filemap.h
+	<sys/types.h>
+	<utils/Compat.h>
+	<winsock2.h>
+	<windows.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\string8.h
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+	<string.h>
+	<stdarg.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\unicode.h
+	<sys/types.h>
+	<stdint.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\typehelpers.h
+	<new>
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
+1480663697 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\assetdir.h
+	<androidfw/misc.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/SortedVector.h>
+	<sys/types.h>
+
+1480663697 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\misc.h
+	<sys/types.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\vector.h
+	<new>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1480667247 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\cutils\log.h
+	<log/log.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\log\log.h
+	<stdarg.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/logd.h>
+	<log/uio.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\log\logd.h
+	<android/log.h>
+	<pthread.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/uio.h>
+
+1480667247 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\android\log.h
+	<stdarg.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\log\uio.h
+	<sys/uio.h>
+	<stddef.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\vectorimpl.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\sortedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/Vector.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1480663697 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\zipfilero.h
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/threads.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<time.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\threads.h
+	<utils/AndroidThreads.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RWLock.h>
+	<utils/Thread.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\androidthreads.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/ThreadDefs.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\threaddefs.h
+	<stdint.h>
+	<sys/types.h>
+	<system/graphics.h>
+	<system/thread_defs.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\system\graphics.h
+	<stddef.h>
+	<stdint.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\system\thread_defs.h
+	"graphics.h"
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\condition.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/Timers.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\mutex.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Timers.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\timers.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<utils/Compat.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\rwlock.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/ThreadDefs.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\thread.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RefBase.h>
+	<utils/Timers.h>
+	<utils/ThreadDefs.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\refbase.h
+	<atomic>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<utils/StrongPointer.h>
+	<utils/TypeHelpers.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\strongpointer.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+
+1481081651 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\cutils\atomic.h
+	<stdint.h>
+	<sys/types.h>
+	<stdatomic.h>
+
+1481158701 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\cutils\stdatomic.h
+	<sys/cdefs.h>
+	<atomic>
+	<sys/types.h>
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<uchar.h>
+
+1481009682 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\sys\cdefs.h
+	<sys/cdefs_elf.h>
+	<android/api-level.h>
+
+1481009682 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\sys\cdefs_elf.h
+
+1481009678 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\android\api-level.h
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\keyedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/SortedVector.h>
+	<utils/TypeHelpers.h>
+	<utils/Errors.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\string16.h
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+
+1481095216 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\resourcetypes.h
+	<androidfw/Asset.h>
+	<androidfw/LocaleData.h>
+	<utils/ByteOrder.h>
+	<utils/Errors.h>
+	<utils/String16.h>
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/threads.h>
+	<stdint.h>
+	<sys/types.h>
+	<android/configuration.h>
+	<memory>
+
+1480663697 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\localedata.h
+	<stddef.h>
+	<stdint.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\byteorder.h
+	<stdint.h>
+	<sys/types.h>
+	<winsock2.h>
+	<netinet/in.h>
+
+1480664377 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\android\configuration.h
+	<android/asset_manager.h>
+
+1481009678 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\android\asset_manager.h
+	<sys/types.h>
+
+1480663805 e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptconfig.h
+	<set>
+	<utils/String8.h>
+	"ConfigDescription.h"
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\configdescription.h
+	<androidfw/ResourceTypes.h>
+
+1480663805 e:\work\my\open_source\selfworks\vc\aapt-v24\src\bundle.h
+	<stdlib.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"SdkConstants.h"
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\log.h
+	<cutils/log.h>
+	<sys/types.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\list.h
+	<stddef.h>
+	<stdint.h>
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\sdkconstants.h
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\sourcepos.h
+	<utils/String8.h>
+	<stdio.h>
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\zipfile.h
+	<utils/Vector.h>
+	<utils/Errors.h>
+	<stdio.h>
+	"ZipEntry.h"
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\zipentry.h
+	<utils/Errors.h>
+	<stdlib.h>
+	<stdio.h>
+
+1480663805 e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptutil.h
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\main.h
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/StrongPointer.h>
+	"AaptAssets.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"ResourceFilter.h"
+	"ZipFile.h"
+	<time.h>
+
+1480663805 e:\work\my\open_source\selfworks\vc\aapt-v24\src\apkbuilder.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"ConfigDescription.h"
+	"OutputSet.h"
+	"ResourceFilter.h"
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\outputset.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\resourcefilter.h
+	<androidfw/ResourceTypes.h>
+	<set>
+	<utility>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"AaptAssets.h"
+	"ConfigDescription.h"
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\misc.h
+	<utils/Endian.h>
+
+1480667248 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\utils\endian.h
+	<endian.h>
+
+1480663805 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptconfig.cpp
+	<androidfw/ResourceTypes.h>
+	<ctype.h>
+	"AaptConfig.h"
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"ResourceFilter.h"
+	"SdkConstants.h"
+
+1480663805 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptutil.cpp
+	"AaptUtil.h"
+
+1480663805 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptxml.cpp
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+	"AaptXml.h"
+
+1480663805 e:\work\my\open_source\selfworks\vc\aapt-v24\src\aaptxml.h
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+
+1480663805 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\apkbuilder.cpp
+	"AaptAssets.h"
+	"ApkBuilder.h"
+
+1480663805 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\command.cpp
+	"AaptXml.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"Images.h"
+	"Main.h"
+	"ResourceFilter.h"
+	"ResourceTable.h"
+	"XMLNode.h"
+	<utils/Errors.h>
+	<utils/KeyedVector.h>
+	<utils/List.h>
+	<utils/Log.h>
+	<utils/SortedVector.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+	<errno.h>
+	<fcntl.h>
+	<iostream>
+	<string>
+	<sstream>
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\images.h
+	"ResourceTable.h"
+	"Bundle.h"
+	<utils/String8.h>
+	<utils/RefBase.h>
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\resourcetable.h
+	<map>
+	<queue>
+	<set>
+	"ConfigDescription.h"
+	"ResourceFilter.h"
+	"SourcePos.h"
+	"StringPool.h"
+	"Symbol.h"
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\stringpool.h
+	"Main.h"
+	"AaptAssets.h"
+	<androidfw/ResourceTypes.h>
+	<utils/String16.h>
+	<utils/TypeHelpers.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<ctype.h>
+	<errno.h>
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\symbol.h
+	<utils/String8.h>
+	<utils/String16.h>
+	"ConfigDescription.h"
+	"SourcePos.h"
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\xmlnode.h
+	"StringPool.h"
+	"ResourceTable.h"
+	<expat.h>
+
+1481181057 e:\work\my\open_source\selfworks\vc\aapt-libs\expat\src\lib\expat.h
+	<stdlib.h>
+	"expat_external.h"
+
+1481181057 e:\work\my\open_source\selfworks\vc\aapt-libs\expat\src\lib\expat_external.h
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\crunchcache.cpp
+	<utils/Compat.h>
+	<utils/Vector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\directorywalker.h
+	<dirent.h>
+	<sys/types.h>
+	<sys/param.h>
+	<sys/stat.h>
+	<unistd.h>
+	<utils/String8.h>
+	<stdio.h>
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\filefinder.h
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+
+1480663805 e:\work\my\open_source\selfworks\vc\aapt-v24\src\cacheupdater.h
+	<utils/String8.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	"Images.h"
+	<direct.h>
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\crunchcache.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\filefinder.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+	<dirent.h>
+	<sys/stat.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+
+1481253397 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\images.cpp
+	"Images.h"
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<png.h>
+	<zlib.h>
+
+1481181058 e:\work\my\open_source\selfworks\vc\aapt-libs\png\src\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1481181058 e:\work\my\open_source\selfworks\vc\aapt-libs\png\src\pnglibconf.h
+
+1481181058 e:\work\my\open_source\selfworks\vc\aapt-libs\png\src\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1481020565 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\zlib\zlib.h
+	"zconf.h"
+
+1481020565 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\zlib\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\main.cpp
+	"Main.h"
+	"Bundle.h"
+	<utils/Compat.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<cstdlib>
+	<getopt.h>
+	<cassert>
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\package.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"OutputSet.h"
+	"ResourceTable.h"
+	"ResourceFilter.h"
+	<androidfw/misc.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/misc.h>
+	<sys/types.h>
+	<dirent.h>
+	<ctype.h>
+	<errno.h>
+
+1480663807 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\pseudolocalize.cpp
+	"pseudolocalize.h"
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\pseudolocalize.h
+	<android-base/macros.h>
+	"StringPool.h"
+
+1480667246 e:\work\my\open_source\selfworks\vc\aapt-libs\base\src\include\android-base\macros.h
+	<stddef.h>
+	<unistd.h>
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\resource.cpp
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"AaptXml.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+	"FileFinder.h"
+	"Images.h"
+	"IndentPrinter.h"
+	"Main.h"
+	"ResourceTable.h"
+	"StringPool.h"
+	"Symbol.h"
+	"WorkQueue.h"
+	"XMLNode.h"
+	<algorithm>
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\indentprinter.h
+
+1480663807 e:\work\my\open_source\selfworks\vc\aapt-v24\src\workqueue.h
+	<utils/Errors.h>
+	<utils/Vector.h>
+	<utils/threads.h>
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\resourcefilter.cpp
+	"ResourceFilter.h"
+	"AaptUtil.h"
+	"AaptConfig.h"
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\resourceidcache.cpp
+	<utils/String16.h>
+	<utils/Log.h>
+	"ResourceIdCache.h"
+	<map>
+
+1480663806 e:\work\my\open_source\selfworks\vc\aapt-v24\src\resourceidcache.h
+	<utils/String16.h>
+
+1480663806 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\resourcetable.cpp
+	"ResourceTable.h"
+	"AaptUtil.h"
+	"XMLNode.h"
+	"ResourceFilter.h"
+	"ResourceIdCache.h"
+	"SdkConstants.h"
+	<algorithm>
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<utils/TypeHelpers.h>
+	<stdarg.h>
+
+1480663807 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\sourcepos.cpp
+	"SourcePos.h"
+	<stdarg.h>
+	<vector>
+
+1480663807 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\stringpool.cpp
+	"StringPool.h"
+	<utils/ByteOrder.h>
+	<utils/SortedVector.h>
+	<algorithm>
+	"ResourceTable.h"
+
+1480663807 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\workqueue.cpp
+	<utils/Log.h>
+	"WorkQueue.h"
+
+1480663807 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\xmlnode.cpp
+	"XMLNode.h"
+	"ResourceTable.h"
+	"pseudolocalize.h"
+	<utils/ByteOrder.h>
+	<errno.h>
+	<string.h>
+
+1480663807 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\zipentry.cpp
+	"ZipEntry.h"
+	<utils/Log.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+
+1480663807 source:e:\work\my\open_source\selfworks\vc\aapt-v24\src\zipfile.cpp
+	<androidfw/ZipUtils.h>
+	<utils/Log.h>
+	"ZipFile.h"
+	<zlib.h>
+	<memory.h>
+	<sys/stat.h>
+	<errno.h>
+	<assert.h>
+
+1480663697 e:\work\my\open_source\selfworks\vc\aapt-libs\androidfw\include\androidfw\ziputils.h
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<time.h>
+
+1480667247 e:\work\my\open_source\selfworks\vc\aapt-libs\utils\include\cutils\memory.h
+	<stdint.h>
+	<sys/types.h>
+
+1480663805 source:e:\workspace\aapt\aapt-v24\src\aaptassets.cpp
+	"AaptAssets.h"
+	"AaptConfig.h"
+	"AaptUtil.h"
+	"Main.h"
+	"ResourceFilter.h"
+	<utils/misc.h>
+	<utils/SortedVector.h>
+	<ctype.h>
+	<dirent.h>
+	<errno.h>
+
+1480663805 e:\workspace\aapt\aapt-v24\src\aaptassets.h
+	<androidfw/AssetManager.h>
+	<androidfw/ResourceTypes.h>
+	<stdlib.h>
+	<set>
+	<utils/KeyedVector.h>
+	<utils/RefBase.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"AaptConfig.h"
+	"Bundle.h"
+	"ConfigDescription.h"
+	"SourcePos.h"
+	"ZipFile.h"
+
+1480663697 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\assetmanager.h
+	<androidfw/Asset.h>
+	<androidfw/AssetDir.h>
+	<androidfw/ZipFileRO.h>
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String16.h>
+	<utils/String8.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+
+1480663697 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\asset.h
+	<stdio.h>
+	<sys/types.h>
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\compat.h
+	<unistd.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\errors.h
+	<sys/types.h>
+	<errno.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\filemap.h
+	<sys/types.h>
+	<utils/Compat.h>
+	<winsock2.h>
+	<windows.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\string8.h
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+	<string.h>
+	<stdarg.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\unicode.h
+	<sys/types.h>
+	<stdint.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\typehelpers.h
+	<new>
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
+1480663697 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\assetdir.h
+	<androidfw/misc.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/SortedVector.h>
+	<sys/types.h>
+
+1480663697 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\misc.h
+	<sys/types.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\vector.h
+	<new>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1480667247 e:\workspace\aapt\aapt-libs\utils\include\cutils\log.h
+	<log/log.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\log\log.h
+	<stdarg.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/logd.h>
+	<log/uio.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\log\logd.h
+	<android/log.h>
+	<pthread.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/uio.h>
+
+1480667247 e:\workspace\aapt\aapt-libs\utils\include\android\log.h
+	<stdarg.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\log\uio.h
+	<sys/uio.h>
+	<stddef.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\vectorimpl.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\sortedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/Vector.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1480663697 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\zipfilero.h
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/threads.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<time.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\threads.h
+	<utils/AndroidThreads.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RWLock.h>
+	<utils/Thread.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\androidthreads.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/ThreadDefs.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\threaddefs.h
+	<stdint.h>
+	<sys/types.h>
+	<system/graphics.h>
+	<system/thread_defs.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\system\graphics.h
+	<stddef.h>
+	<stdint.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\system\thread_defs.h
+	"graphics.h"
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\condition.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/Timers.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\mutex.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Timers.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\timers.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<utils/Compat.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\rwlock.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/ThreadDefs.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\thread.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RefBase.h>
+	<utils/Timers.h>
+	<utils/ThreadDefs.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\refbase.h
+	<atomic>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<utils/StrongPointer.h>
+	<utils/TypeHelpers.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\strongpointer.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+
+1481081651 e:\workspace\aapt\aapt-libs\utils\include\cutils\atomic.h
+	<stdint.h>
+	<sys/types.h>
+	<stdatomic.h>
+
+1481158701 e:\workspace\aapt\aapt-libs\utils\include\cutils\stdatomic.h
+	<sys/cdefs.h>
+	<atomic>
+	<sys/types.h>
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<uchar.h>
+
+1481009682 e:\workspace\aapt\aapt-libs\utils\include\sys\cdefs.h
+	<sys/cdefs_elf.h>
+	<android/api-level.h>
+
+1481009682 e:\workspace\aapt\aapt-libs\utils\include\sys\cdefs_elf.h
+
+1481009678 e:\workspace\aapt\aapt-libs\utils\include\android\api-level.h
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\keyedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/SortedVector.h>
+	<utils/TypeHelpers.h>
+	<utils/Errors.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\string16.h
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+
+1481095216 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\resourcetypes.h
+	<androidfw/Asset.h>
+	<androidfw/LocaleData.h>
+	<utils/ByteOrder.h>
+	<utils/Errors.h>
+	<utils/String16.h>
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/threads.h>
+	<stdint.h>
+	<sys/types.h>
+	<android/configuration.h>
+	<memory>
+
+1480663697 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\localedata.h
+	<stddef.h>
+	<stdint.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\byteorder.h
+	<stdint.h>
+	<sys/types.h>
+	<winsock2.h>
+	<netinet/in.h>
+
+1480664377 e:\workspace\aapt\aapt-libs\androidfw\include\android\configuration.h
+	<android/asset_manager.h>
+
+1481009678 e:\workspace\aapt\aapt-libs\androidfw\include\android\asset_manager.h
+	<sys/types.h>
+
+1480663805 e:\workspace\aapt\aapt-v24\src\aaptconfig.h
+	<set>
+	<utils/String8.h>
+	"ConfigDescription.h"
+
+1480663806 e:\workspace\aapt\aapt-v24\src\configdescription.h
+	<androidfw/ResourceTypes.h>
+
+1480663805 e:\workspace\aapt\aapt-v24\src\bundle.h
+	<stdlib.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"SdkConstants.h"
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\log.h
+	<cutils/log.h>
+	<sys/types.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\list.h
+	<stddef.h>
+	<stdint.h>
+
+1480663807 e:\workspace\aapt\aapt-v24\src\sdkconstants.h
+
+1480663807 e:\workspace\aapt\aapt-v24\src\sourcepos.h
+	<utils/String8.h>
+	<stdio.h>
+
+1480663807 e:\workspace\aapt\aapt-v24\src\zipfile.h
+	<utils/Vector.h>
+	<utils/Errors.h>
+	<stdio.h>
+	"ZipEntry.h"
+
+1480663807 e:\workspace\aapt\aapt-v24\src\zipentry.h
+	<utils/Errors.h>
+	<stdlib.h>
+	<stdio.h>
+
+1480663805 e:\workspace\aapt\aapt-v24\src\aaptutil.h
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+
+1480663806 e:\workspace\aapt\aapt-v24\src\main.h
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/StrongPointer.h>
+	"AaptAssets.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"ResourceFilter.h"
+	"ZipFile.h"
+	<time.h>
+
+1480663805 e:\workspace\aapt\aapt-v24\src\apkbuilder.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"ConfigDescription.h"
+	"OutputSet.h"
+	"ResourceFilter.h"
+
+1480663806 e:\workspace\aapt\aapt-v24\src\outputset.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+
+1480663806 e:\workspace\aapt\aapt-v24\src\resourcefilter.h
+	<androidfw/ResourceTypes.h>
+	<set>
+	<utility>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"AaptAssets.h"
+	"ConfigDescription.h"
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\misc.h
+	<utils/Endian.h>
+
+1480667248 e:\workspace\aapt\aapt-libs\utils\include\utils\endian.h
+	<endian.h>
+
+1480663805 source:e:\workspace\aapt\aapt-v24\src\aaptconfig.cpp
+	<androidfw/ResourceTypes.h>
+	<ctype.h>
+	"AaptConfig.h"
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"ResourceFilter.h"
+	"SdkConstants.h"
+
+1480663805 source:e:\workspace\aapt\aapt-v24\src\aaptutil.cpp
+	"AaptUtil.h"
+
+1480663805 source:e:\workspace\aapt\aapt-v24\src\aaptxml.cpp
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+	"AaptXml.h"
+
+1480663805 e:\workspace\aapt\aapt-v24\src\aaptxml.h
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+
+1480663805 source:e:\workspace\aapt\aapt-v24\src\apkbuilder.cpp
+	"AaptAssets.h"
+	"ApkBuilder.h"
+
+1480663805 source:e:\workspace\aapt\aapt-v24\src\command.cpp
+	"AaptXml.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"Images.h"
+	"Main.h"
+	"ResourceFilter.h"
+	"ResourceTable.h"
+	"XMLNode.h"
+	<utils/Errors.h>
+	<utils/KeyedVector.h>
+	<utils/List.h>
+	<utils/Log.h>
+	<utils/SortedVector.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+	<errno.h>
+	<fcntl.h>
+	<iostream>
+	<string>
+	<sstream>
+
+1480663806 e:\workspace\aapt\aapt-v24\src\images.h
+	"ResourceTable.h"
+	"Bundle.h"
+	<utils/String8.h>
+	<utils/RefBase.h>
+
+1480663807 e:\workspace\aapt\aapt-v24\src\resourcetable.h
+	<map>
+	<queue>
+	<set>
+	"ConfigDescription.h"
+	"ResourceFilter.h"
+	"SourcePos.h"
+	"StringPool.h"
+	"Symbol.h"
+
+1480663807 e:\workspace\aapt\aapt-v24\src\stringpool.h
+	"Main.h"
+	"AaptAssets.h"
+	<androidfw/ResourceTypes.h>
+	<utils/String16.h>
+	<utils/TypeHelpers.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<ctype.h>
+	<errno.h>
+
+1480663807 e:\workspace\aapt\aapt-v24\src\symbol.h
+	<utils/String8.h>
+	<utils/String16.h>
+	"ConfigDescription.h"
+	"SourcePos.h"
+
+1480663807 e:\workspace\aapt\aapt-v24\src\xmlnode.h
+	"StringPool.h"
+	"ResourceTable.h"
+	<expat.h>
+
+1481181057 e:\workspace\aapt\aapt-libs\expat\src\lib\expat.h
+	<stdlib.h>
+	"expat_external.h"
+
+1481181057 e:\workspace\aapt\aapt-libs\expat\src\lib\expat_external.h
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\crunchcache.cpp
+	<utils/Compat.h>
+	<utils/Vector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+
+1480663806 e:\workspace\aapt\aapt-v24\src\directorywalker.h
+	<dirent.h>
+	<sys/types.h>
+	<sys/param.h>
+	<sys/stat.h>
+	<unistd.h>
+	<utils/String8.h>
+	<stdio.h>
+
+1480663806 e:\workspace\aapt\aapt-v24\src\filefinder.h
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+
+1480663805 e:\workspace\aapt\aapt-v24\src\cacheupdater.h
+	<utils/String8.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	"Images.h"
+	<direct.h>
+
+1480663806 e:\workspace\aapt\aapt-v24\src\crunchcache.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\filefinder.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+	<dirent.h>
+	<sys/stat.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+
+1481253397 source:e:\workspace\aapt\aapt-v24\src\images.cpp
+	"Images.h"
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<png.h>
+	<zlib.h>
+
+1481181058 e:\workspace\aapt\aapt-libs\png\src\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1481181058 e:\workspace\aapt\aapt-libs\png\src\pnglibconf.h
+
+1481181058 e:\workspace\aapt\aapt-libs\png\src\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1481020565 e:\workspace\aapt\aapt-libs\androidfw\include\zlib\zlib.h
+	"zconf.h"
+
+1481020565 e:\workspace\aapt\aapt-libs\androidfw\include\zlib\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\main.cpp
+	"Main.h"
+	"Bundle.h"
+	<utils/Compat.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<cstdlib>
+	<getopt.h>
+	<cassert>
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\package.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"OutputSet.h"
+	"ResourceTable.h"
+	"ResourceFilter.h"
+	<androidfw/misc.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/misc.h>
+	<sys/types.h>
+	<dirent.h>
+	<ctype.h>
+	<errno.h>
+
+1480663807 source:e:\workspace\aapt\aapt-v24\src\pseudolocalize.cpp
+	"pseudolocalize.h"
+
+1480663807 e:\workspace\aapt\aapt-v24\src\pseudolocalize.h
+	<android-base/macros.h>
+	"StringPool.h"
+
+1480667246 e:\workspace\aapt\aapt-libs\base\src\include\android-base\macros.h
+	<stddef.h>
+	<unistd.h>
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\resource.cpp
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"AaptXml.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+	"FileFinder.h"
+	"Images.h"
+	"IndentPrinter.h"
+	"Main.h"
+	"ResourceTable.h"
+	"StringPool.h"
+	"Symbol.h"
+	"WorkQueue.h"
+	"XMLNode.h"
+	<algorithm>
+
+1480663806 e:\workspace\aapt\aapt-v24\src\indentprinter.h
+
+1480663807 e:\workspace\aapt\aapt-v24\src\workqueue.h
+	<utils/Errors.h>
+	<utils/Vector.h>
+	<utils/threads.h>
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\resourcefilter.cpp
+	"ResourceFilter.h"
+	"AaptUtil.h"
+	"AaptConfig.h"
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\resourceidcache.cpp
+	<utils/String16.h>
+	<utils/Log.h>
+	"ResourceIdCache.h"
+	<map>
+
+1480663806 e:\workspace\aapt\aapt-v24\src\resourceidcache.h
+	<utils/String16.h>
+
+1480663806 source:e:\workspace\aapt\aapt-v24\src\resourcetable.cpp
+	"ResourceTable.h"
+	"AaptUtil.h"
+	"XMLNode.h"
+	"ResourceFilter.h"
+	"ResourceIdCache.h"
+	"SdkConstants.h"
+	<algorithm>
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<utils/TypeHelpers.h>
+	<stdarg.h>
+
+1480663807 source:e:\workspace\aapt\aapt-v24\src\sourcepos.cpp
+	"SourcePos.h"
+	<stdarg.h>
+	<vector>
+
+1480663807 source:e:\workspace\aapt\aapt-v24\src\stringpool.cpp
+	"StringPool.h"
+	<utils/ByteOrder.h>
+	<utils/SortedVector.h>
+	<algorithm>
+	"ResourceTable.h"
+
+1480663807 source:e:\workspace\aapt\aapt-v24\src\workqueue.cpp
+	<utils/Log.h>
+	"WorkQueue.h"
+
+1480663807 source:e:\workspace\aapt\aapt-v24\src\xmlnode.cpp
+	"XMLNode.h"
+	"ResourceTable.h"
+	"pseudolocalize.h"
+	<utils/ByteOrder.h>
+	<errno.h>
+	<string.h>
+
+1480663807 source:e:\workspace\aapt\aapt-v24\src\zipentry.cpp
+	"ZipEntry.h"
+	<utils/Log.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+
+1480663807 source:e:\workspace\aapt\aapt-v24\src\zipfile.cpp
+	<androidfw/ZipUtils.h>
+	<utils/Log.h>
+	"ZipFile.h"
+	<zlib.h>
+	<memory.h>
+	<sys/stat.h>
+	<errno.h>
+	<assert.h>
+
+1480663697 e:\workspace\aapt\aapt-libs\androidfw\include\androidfw\ziputils.h
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<time.h>
+
+1480667247 e:\workspace\aapt\aapt-libs\utils\include\cutils\memory.h
+	<stdint.h>
+	<sys/types.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\aaptassets.cpp
+	"AaptAssets.h"
+	"AaptConfig.h"
+	"AaptUtil.h"
+	"Main.h"
+	"ResourceFilter.h"
+	<utils/misc.h>
+	<utils/SortedVector.h>
+	<ctype.h>
+	<dirent.h>
+	<errno.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\aaptassets.h
+	<androidfw/AssetManager.h>
+	<androidfw/ResourceTypes.h>
+	<stdlib.h>
+	<set>
+	<utils/KeyedVector.h>
+	<utils/RefBase.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"AaptConfig.h"
+	"Bundle.h"
+	"ConfigDescription.h"
+	"SourcePos.h"
+	"ZipFile.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\assetmanager.h
+	<androidfw/Asset.h>
+	<androidfw/AssetDir.h>
+	<androidfw/ZipFileRO.h>
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String16.h>
+	<utils/String8.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\asset.h
+	<stdio.h>
+	<sys/types.h>
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\compat.h
+	<unistd.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\errors.h
+	<sys/types.h>
+	<errno.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\filemap.h
+	<sys/types.h>
+	<utils/Compat.h>
+	<winsock2.h>
+	<windows.h>
+
+1559808689 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\string8.h
+	<string>
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+	<string.h>
+	<stdarg.h>
+
+1559738817 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\unicode.h
+	<sys/types.h>
+	<stdint.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\typehelpers.h
+	<new>
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\assetdir.h
+	<androidfw/misc.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/SortedVector.h>
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\misc.h
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\vector.h
+	<new>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\cutils\log.h
+	<log/log.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\log\log.h
+	<stdarg.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/logd.h>
+	<log/uio.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\log\logd.h
+	<android/log.h>
+	<pthread.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/uio.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\android\log.h
+	<stdarg.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\log\uio.h
+	<sys/uio.h>
+	<stddef.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\vectorimpl.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\sortedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/Vector.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\zipfilero.h
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/threads.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<time.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\threads.h
+	<utils/AndroidThreads.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RWLock.h>
+	<utils/Thread.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\androidthreads.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/ThreadDefs.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\threaddefs.h
+	<stdint.h>
+	<sys/types.h>
+	<system/graphics.h>
+	<system/thread_defs.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\system\graphics.h
+	<stddef.h>
+	<stdint.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\system\thread_defs.h
+	"graphics.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\condition.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/Timers.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\mutex.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Timers.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\timers.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<utils/Compat.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\rwlock.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/ThreadDefs.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\thread.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RefBase.h>
+	<utils/Timers.h>
+	<utils/ThreadDefs.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\refbase.h
+	<atomic>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<utils/StrongPointer.h>
+	<utils/TypeHelpers.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\strongpointer.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\cutils\atomic.h
+	<stdint.h>
+	<sys/types.h>
+	<stdatomic.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\cutils\stdatomic.h
+	<sys/cdefs.h>
+	<atomic>
+	<sys/types.h>
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<uchar.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\sys\cdefs.h
+	<sys/cdefs_elf.h>
+	<android/api-level.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\sys\cdefs_elf.h
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\android\api-level.h
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\keyedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/SortedVector.h>
+	<utils/TypeHelpers.h>
+	<utils/Errors.h>
+
+1559809023 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\string16.h
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+	<utils/String8.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\resourcetypes.h
+	<androidfw/Asset.h>
+	<androidfw/LocaleData.h>
+	<utils/Errors.h>
+	<utils/String16.h>
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/threads.h>
+	<stdint.h>
+	<sys/types.h>
+	<android/configuration.h>
+	<memory>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\localedata.h
+	<stddef.h>
+	<stdint.h>
+
+1559734126 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\android\configuration.h
+	<sys/cdefs.h>
+	<android/asset_manager.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\android\asset_manager.h
+	<sys/types.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\aaptconfig.h
+	<set>
+	<utils/String8.h>
+	"ConfigDescription.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\configdescription.h
+	<androidfw/ResourceTypes.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\bundle.h
+	<stdlib.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"SdkConstants.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\log.h
+	<cutils/log.h>
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\list.h
+	<stddef.h>
+	<stdint.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\sdkconstants.h
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\sourcepos.h
+	<utils/String8.h>
+	<stdio.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\zipfile.h
+	<utils/Vector.h>
+	<utils/Errors.h>
+	<stdio.h>
+	"ZipEntry.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\zipentry.h
+	<utils/Errors.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\aaptutil.h
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\main.h
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/StrongPointer.h>
+	"AaptAssets.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"ResourceFilter.h"
+	"ZipFile.h"
+	<time.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\apkbuilder.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"ConfigDescription.h"
+	"OutputSet.h"
+	"ResourceFilter.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\outputset.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\resourcefilter.h
+	<androidfw/ResourceTypes.h>
+	<set>
+	<utility>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"AaptAssets.h"
+	"ConfigDescription.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\misc.h
+	<utils/Endian.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\endian.h
+	<endian.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\aaptconfig.cpp
+	<androidfw/ResourceTypes.h>
+	<ctype.h>
+	"AaptConfig.h"
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"ResourceFilter.h"
+	"SdkConstants.h"
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\aaptutil.cpp
+	"AaptUtil.h"
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\aaptxml.cpp
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+	"AaptXml.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\aaptxml.h
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\apkbuilder.cpp
+	"AaptAssets.h"
+	"ApkBuilder.h"
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\command.cpp
+	"AaptXml.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"Images.h"
+	"Main.h"
+	"ResourceFilter.h"
+	"ResourceTable.h"
+	"XMLNode.h"
+	<utils/Errors.h>
+	<utils/KeyedVector.h>
+	<utils/List.h>
+	<utils/Log.h>
+	<utils/SortedVector.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+	<errno.h>
+	<fcntl.h>
+	<iostream>
+	<string>
+	<sstream>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\images.h
+	"ResourceTable.h"
+	"Bundle.h"
+	<utils/String8.h>
+	<utils/RefBase.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\resourcetable.h
+	<map>
+	<queue>
+	<set>
+	"ConfigDescription.h"
+	"ResourceFilter.h"
+	"SourcePos.h"
+	"StringPool.h"
+	"Symbol.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\stringpool.h
+	"Main.h"
+	"AaptAssets.h"
+	<androidfw/ResourceTypes.h>
+	<utils/String16.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<ctype.h>
+	<errno.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\symbol.h
+	<utils/String8.h>
+	<utils/String16.h>
+	"ConfigDescription.h"
+	"SourcePos.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\xmlnode.h
+	"StringPool.h"
+	"ResourceTable.h"
+	<expat.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\expat\src\lib\expat.h
+	<stdlib.h>
+	"expat_external.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\expat\src\lib\expat_external.h
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\crunchcache.cpp
+	<utils/Compat.h>
+	<utils/Vector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\directorywalker.h
+	<dirent.h>
+	<sys/types.h>
+	<sys/param.h>
+	<sys/stat.h>
+	<unistd.h>
+	<utils/String8.h>
+	<stdio.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\filefinder.h
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\cacheupdater.h
+	<utils/String8.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	"Images.h"
+	<direct.h>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\crunchcache.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\filefinder.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+	<dirent.h>
+	<sys/stat.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+
+1559750419 source:e:\test\aapt\aapt-3-master\aapt-v24\src\images.cpp
+	"Images.h"
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<png.h>
+	<zlib.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\utils\byteorder.h
+	<stdint.h>
+	<sys/types.h>
+	<winsock2.h>
+	<netinet/in.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\png\src\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\png\src\pnglibconf.h
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\png\src\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\zlib\zlib.h
+	"zconf.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\zlib\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1559736777 source:e:\test\aapt\aapt-3-master\aapt-v24\src\main.cpp
+	"Main.h"
+	"Bundle.h"
+	<utils/Compat.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<cstdlib>
+	<getopt.h>
+	<cassert>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\package.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"OutputSet.h"
+	"ResourceTable.h"
+	"ResourceFilter.h"
+	<androidfw/misc.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/misc.h>
+	<sys/types.h>
+	<dirent.h>
+	<ctype.h>
+	<errno.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\pseudolocalize.cpp
+	"pseudolocalize.h"
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\pseudolocalize.h
+	<android-base/macros.h>
+	"StringPool.h"
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\base\src\include\android-base\macros.h
+	<stddef.h>
+	<unistd.h>
+
+1559814440 source:e:\test\aapt\aapt-3-master\aapt-v24\src\resource.cpp
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"AaptXml.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+	"FileFinder.h"
+	"Images.h"
+	"IndentPrinter.h"
+	"Main.h"
+	"ResourceTable.h"
+	"StringPool.h"
+	"Symbol.h"
+	"WorkQueue.h"
+	"XMLNode.h"
+	<algorithm>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\indentprinter.h
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\workqueue.h
+	<utils/Errors.h>
+	<utils/Vector.h>
+	<utils/threads.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\resourcefilter.cpp
+	"ResourceFilter.h"
+	"AaptUtil.h"
+	"AaptConfig.h"
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\resourceidcache.cpp
+	<utils/String16.h>
+	<utils/Log.h>
+	"ResourceIdCache.h"
+	<map>
+
+1547125069 e:\test\aapt\aapt-3-master\aapt-v24\src\resourceidcache.h
+	<utils/String16.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\sourcepos.cpp
+	"SourcePos.h"
+	<stdarg.h>
+	<vector>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\stringpool.cpp
+	"StringPool.h"
+	<utils/ByteOrder.h>
+	<utils/SortedVector.h>
+	<algorithm>
+	"ResourceTable.h"
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\workqueue.cpp
+	<utils/Log.h>
+	"WorkQueue.h"
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\zipentry.cpp
+	"ZipEntry.h"
+	<utils/Log.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\zipfile.cpp
+	<androidfw/ZipUtils.h>
+	<utils/Log.h>
+	"ZipFile.h"
+	<zlib.h>
+	<memory.h>
+	<sys/stat.h>
+	<errno.h>
+	<assert.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\androidfw\include\androidfw\ziputils.h
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<time.h>
+
+1504260965 e:\test\aapt\aapt-3-master\aapt-libs\utils\include\cutils\memory.h
+	<stdint.h>
+	<sys/types.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\resourcetable.cpp
+	"ResourceTable.h"
+	"AaptUtil.h"
+	"XMLNode.h"
+	"ResourceFilter.h"
+	"ResourceIdCache.h"
+	"SdkConstants.h"
+	<algorithm>
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<utils/TypeHelpers.h>
+	<stdarg.h>
+
+1547125069 source:e:\test\aapt\aapt-3-master\aapt-v24\src\xmlnode.cpp
+	"XMLNode.h"
+	"ResourceTable.h"
+	"pseudolocalize.h"
+	<utils/ByteOrder.h>
+	<errno.h>
+	<string.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptassets.cpp
+	"AaptAssets.h"
+	"AaptConfig.h"
+	"AaptUtil.h"
+	"Main.h"
+	"ResourceFilter.h"
+	<utils/misc.h>
+	<utils/SortedVector.h>
+	<ctype.h>
+	<dirent.h>
+	<errno.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptassets.h
+	<androidfw/AssetManager.h>
+	<androidfw/ResourceTypes.h>
+	<stdlib.h>
+	<set>
+	<utils/KeyedVector.h>
+	<utils/RefBase.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"AaptConfig.h"
+	"Bundle.h"
+	"ConfigDescription.h"
+	"SourcePos.h"
+	"ZipFile.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\assetmanager.h
+	<androidfw/Asset.h>
+	<androidfw/AssetDir.h>
+	<androidfw/ZipFileRO.h>
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String16.h>
+	<utils/String8.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\asset.h
+	<stdio.h>
+	<sys/types.h>
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\compat.h
+	<unistd.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\errors.h
+	<sys/types.h>
+	<errno.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\filemap.h
+	<sys/types.h>
+	<utils/Compat.h>
+	<winsock2.h>
+	<windows.h>
+
+1559808689 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\string8.h
+	<string>
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+	<string.h>
+	<stdarg.h>
+
+1559738817 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\unicode.h
+	<sys/types.h>
+	<stdint.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\typehelpers.h
+	<new>
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\assetdir.h
+	<androidfw/misc.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/SortedVector.h>
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\misc.h
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\vector.h
+	<new>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\cutils\log.h
+	<log/log.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\log\log.h
+	<stdarg.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/logd.h>
+	<log/uio.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\log\logd.h
+	<android/log.h>
+	<pthread.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdio.h>
+	<sys/types.h>
+	<time.h>
+	<unistd.h>
+	<log/uio.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\android\log.h
+	<stdarg.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\log\uio.h
+	<sys/uio.h>
+	<stddef.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\vectorimpl.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\sortedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/Vector.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\zipfilero.h
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/threads.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<time.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\threads.h
+	<utils/AndroidThreads.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RWLock.h>
+	<utils/Thread.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\androidthreads.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/ThreadDefs.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\threaddefs.h
+	<stdint.h>
+	<sys/types.h>
+	<system/graphics.h>
+	<system/thread_defs.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\system\graphics.h
+	<stddef.h>
+	<stdint.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\system\thread_defs.h
+	"graphics.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\condition.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/Timers.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\mutex.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/Timers.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\timers.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<utils/Compat.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\rwlock.h
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/ThreadDefs.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\thread.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<pthread.h>
+	<utils/Condition.h>
+	<utils/Errors.h>
+	<utils/Mutex.h>
+	<utils/RefBase.h>
+	<utils/Timers.h>
+	<utils/ThreadDefs.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\refbase.h
+	<atomic>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<utils/StrongPointer.h>
+	<utils/TypeHelpers.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\strongpointer.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\cutils\atomic.h
+	<stdint.h>
+	<sys/types.h>
+	<stdatomic.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\cutils\stdatomic.h
+	<sys/cdefs.h>
+	<atomic>
+	<sys/types.h>
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<uchar.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\sys\cdefs.h
+	<sys/cdefs_elf.h>
+	<android/api-level.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\sys\cdefs_elf.h
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\android\api-level.h
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\keyedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<cutils/log.h>
+	<utils/SortedVector.h>
+	<utils/TypeHelpers.h>
+	<utils/Errors.h>
+
+1559809023 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\string16.h
+	<utils/Errors.h>
+	<utils/Unicode.h>
+	<utils/TypeHelpers.h>
+	<utils/String8.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\resourcetypes.h
+	<androidfw/Asset.h>
+	<androidfw/LocaleData.h>
+	<utils/Errors.h>
+	<utils/String16.h>
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/threads.h>
+	<stdint.h>
+	<sys/types.h>
+	<android/configuration.h>
+	<memory>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\localedata.h
+	<stddef.h>
+	<stdint.h>
+
+1559734126 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\android\configuration.h
+	<sys/cdefs.h>
+	<android/asset_manager.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\android\asset_manager.h
+	<sys/types.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptconfig.h
+	<set>
+	<utils/String8.h>
+	"ConfigDescription.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\configdescription.h
+	<androidfw/ResourceTypes.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\bundle.h
+	<stdlib.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	"SdkConstants.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\log.h
+	<cutils/log.h>
+	<sys/types.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\list.h
+	<stddef.h>
+	<stdint.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\sdkconstants.h
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\sourcepos.h
+	<utils/String8.h>
+	<stdio.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\zipfile.h
+	<utils/Vector.h>
+	<utils/Errors.h>
+	<stdio.h>
+	"ZipEntry.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\zipentry.h
+	<utils/Errors.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptutil.h
+	<utils/KeyedVector.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\main.h
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/StrongPointer.h>
+	"AaptAssets.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"ResourceFilter.h"
+	"ZipFile.h"
+	<time.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\apkbuilder.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"ConfigDescription.h"
+	"OutputSet.h"
+	"ResourceFilter.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\outputset.h
+	<set>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\resourcefilter.h
+	<androidfw/ResourceTypes.h>
+	<set>
+	<utility>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/StrongPointer.h>
+	<utils/Vector.h>
+	"AaptAssets.h"
+	"ConfigDescription.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\misc.h
+	<utils/Endian.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\endian.h
+	<endian.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptconfig.cpp
+	<androidfw/ResourceTypes.h>
+	<ctype.h>
+	"AaptConfig.h"
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"ResourceFilter.h"
+	"SdkConstants.h"
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptutil.cpp
+	"AaptUtil.h"
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptxml.cpp
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+	"AaptXml.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\aaptxml.h
+	<androidfw/ResourceTypes.h>
+	<utils/String8.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\apkbuilder.cpp
+	"AaptAssets.h"
+	"ApkBuilder.h"
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\command.cpp
+	"AaptXml.h"
+	"ApkBuilder.h"
+	"Bundle.h"
+	"Images.h"
+	"Main.h"
+	"ResourceFilter.h"
+	"ResourceTable.h"
+	"XMLNode.h"
+	<utils/Errors.h>
+	<utils/KeyedVector.h>
+	<utils/List.h>
+	<utils/Log.h>
+	<utils/SortedVector.h>
+	<utils/threads.h>
+	<utils/Vector.h>
+	<errno.h>
+	<fcntl.h>
+	<iostream>
+	<string>
+	<sstream>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\images.h
+	"ResourceTable.h"
+	"Bundle.h"
+	<utils/String8.h>
+	<utils/RefBase.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\resourcetable.h
+	<map>
+	<queue>
+	<set>
+	"ConfigDescription.h"
+	"ResourceFilter.h"
+	"SourcePos.h"
+	"StringPool.h"
+	"Symbol.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\stringpool.h
+	"Main.h"
+	"AaptAssets.h"
+	<androidfw/ResourceTypes.h>
+	<utils/String16.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<ctype.h>
+	<errno.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\symbol.h
+	<utils/String8.h>
+	<utils/String16.h>
+	"ConfigDescription.h"
+	"SourcePos.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\xmlnode.h
+	"StringPool.h"
+	"ResourceTable.h"
+	<expat.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\expat\src\lib\expat.h
+	<stdlib.h>
+	"expat_external.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\expat\src\lib\expat_external.h
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\crunchcache.cpp
+	<utils/Compat.h>
+	<utils/Vector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\directorywalker.h
+	<dirent.h>
+	<sys/types.h>
+	<sys/param.h>
+	<sys/stat.h>
+	<unistd.h>
+	<utils/String8.h>
+	<stdio.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\filefinder.h
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\cacheupdater.h
+	<utils/String8.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	"Images.h"
+	<direct.h>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\crunchcache.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\filefinder.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+	<dirent.h>
+	<sys/stat.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+
+1559814801 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\images.cpp
+	"Images.h"
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<png.h>
+	<zlib.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\utils\byteorder.h
+	<stdint.h>
+	<sys/types.h>
+	<winsock2.h>
+	<netinet/in.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\png\src\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\png\src\pnglibconf.h
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\png\src\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\zlib\zlib.h
+	"zconf.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\zlib\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1559736777 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\main.cpp
+	"Main.h"
+	"Bundle.h"
+	<utils/Compat.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<cstdlib>
+	<getopt.h>
+	<cassert>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\package.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"OutputSet.h"
+	"ResourceTable.h"
+	"ResourceFilter.h"
+	<androidfw/misc.h>
+	<utils/Log.h>
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/misc.h>
+	<sys/types.h>
+	<dirent.h>
+	<ctype.h>
+	<errno.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\pseudolocalize.cpp
+	"pseudolocalize.h"
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\pseudolocalize.h
+	<android-base/macros.h>
+	"StringPool.h"
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\base\src\include\android-base\macros.h
+	<stddef.h>
+	<unistd.h>
+
+1559814440 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\resource.cpp
+	"AaptAssets.h"
+	"AaptUtil.h"
+	"AaptXml.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+	"FileFinder.h"
+	"Images.h"
+	"IndentPrinter.h"
+	"Main.h"
+	"ResourceTable.h"
+	"StringPool.h"
+	"Symbol.h"
+	"WorkQueue.h"
+	"XMLNode.h"
+	<algorithm>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\indentprinter.h
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\workqueue.h
+	<utils/Errors.h>
+	<utils/Vector.h>
+	<utils/threads.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\resourcefilter.cpp
+	"ResourceFilter.h"
+	"AaptUtil.h"
+	"AaptConfig.h"
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\resourceidcache.cpp
+	<utils/String16.h>
+	<utils/Log.h>
+	"ResourceIdCache.h"
+	<map>
+
+1547125069 e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\resourceidcache.h
+	<utils/String16.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\resourcetable.cpp
+	"ResourceTable.h"
+	"AaptUtil.h"
+	"XMLNode.h"
+	"ResourceFilter.h"
+	"ResourceIdCache.h"
+	"SdkConstants.h"
+	<algorithm>
+	<androidfw/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<utils/TypeHelpers.h>
+	<stdarg.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\sourcepos.cpp
+	"SourcePos.h"
+	<stdarg.h>
+	<vector>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\stringpool.cpp
+	"StringPool.h"
+	<utils/ByteOrder.h>
+	<utils/SortedVector.h>
+	<algorithm>
+	"ResourceTable.h"
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\workqueue.cpp
+	<utils/Log.h>
+	"WorkQueue.h"
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\xmlnode.cpp
+	"XMLNode.h"
+	"ResourceTable.h"
+	"pseudolocalize.h"
+	<utils/ByteOrder.h>
+	<errno.h>
+	<string.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\zipentry.cpp
+	"ZipEntry.h"
+	<utils/Log.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+
+1547125069 source:e:\test\aapt\aapt-apktool_v28\aapt-apktool_v28\src\zipfile.cpp
+	<androidfw/ZipUtils.h>
+	<utils/Log.h>
+	"ZipFile.h"
+	<zlib.h>
+	<memory.h>
+	<sys/stat.h>
+	<errno.h>
+	<assert.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\androidfw\include\androidfw\ziputils.h
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<time.h>
+
+1504260965 e:\test\aapt\aapt-apktool_v28\aapt-libs\utils\include\cutils\memory.h
+	<stdint.h>
+	<sys/types.h>
+

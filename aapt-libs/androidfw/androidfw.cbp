@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="androidfw" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/androidfw" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-Wunused" />
+					<Add option="-DSTATIC_ANDROIDFW_FOR_TOOLS" />
+					<Add option="-DUSE_MINGW" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D_STDATOMIC_HAVE_ATOMIC" />
+					<Add directory="include" />
+					<Add directory="../utils/include" />
+					<Add directory="include/zlib" />
+					<Add directory="../utils/include/cutils" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/androidfw" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Option projectLinkerOptionsRelation="-1" />
+				<Option projectResourceIncludeDirsRelation="-1" />
+				<Option projectLibDirsRelation="-1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-Wunused" />
+					<Add option="-DSTATIC_ANDROIDFW_FOR_TOOLS" />
+					<Add option="-DUSE_MINGW" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D_STDATOMIC_HAVE_ATOMIC" />
+					<Add directory="include" />
+					<Add directory="../utils/include" />
+					<Add directory="include/zlib" />
+					<Add directory="../utils/include/cutils" />
+				</Compiler>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="include/android/asset_manager.h" />
+		<Unit filename="include/android/configuration.h" />
+		<Unit filename="include/androidfw/Asset.h" />
+		<Unit filename="include/androidfw/AssetDir.h" />
+		<Unit filename="include/androidfw/AssetManager.h" />
+		<Unit filename="include/androidfw/AttributeFinder.h" />
+		<Unit filename="include/androidfw/ByteBucketArray.h" />
+		<Unit filename="include/androidfw/LocaleData.h" />
+		<Unit filename="include/androidfw/ObbFile.h" />
+		<Unit filename="include/androidfw/ResourceTypes.h" />
+		<Unit filename="include/androidfw/StreamingZipInflater.h" />
+		<Unit filename="include/androidfw/TypeWrappers.h" />
+		<Unit filename="include/androidfw/ZipFileRO.h" />
+		<Unit filename="include/androidfw/ZipUtils.h" />
+		<Unit filename="include/androidfw/misc.h" />
+		<Unit filename="include/ziparchive/zip_archive.h" />
+		<Unit filename="include/ziparchive/zip_archive_stream_entry.h" />
+		<Unit filename="include/ziparchive/zip_writer.h" />
+		<Unit filename="include/zlib/zconf.h" />
+		<Unit filename="include/zlib/zlib.h" />
+		<Unit filename="include/zlib/zutil.h" />
+		<Unit filename="src/Asset.cpp" />
+		<Unit filename="src/AssetDir.cpp" />
+		<Unit filename="src/AssetManager.cpp" />
+		<Unit filename="src/LocaleData.cpp" />
+		<Unit filename="src/LocaleDataTables.cpp" />
+		<Unit filename="src/ObbFile.cpp" />
+		<Unit filename="src/ResourceTypes.cpp" />
+		<Unit filename="src/StreamingZipInflater.cpp" />
+		<Unit filename="src/TypeWrappers.cpp" />
+		<Unit filename="src/ZipFileRO.cpp" />
+		<Unit filename="src/ZipUtils.cpp" />
+		<Unit filename="src/misc.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aapt-apktool_v28" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/aapt-apktool_v28" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option parameters="package --auto-add-overlay -v -f -I d:\java\Android\sdk/platforms/android-24/android.jar -M E:\work\my\open_source\selfworks\plug\mytest\MyApplication\app/src/main/AndroidManifest.xml -S E:\work\my\open_source\selfworks\plug\mytest\MyApplication\app/src/main/res -S E:\work\my\open_source\selfworks\plug\mytest\MyApplication\lib\appcompat-v7-24.2.1\res -A E:\work\my\open_source\selfworks\plug\mytest\MyApplication\app/src/main/assets -m -J E:\work\my\open_source\selfworks\plug\mytest\MyApplication\app\build/gen/r -F E:\work\my\open_source\selfworks\plug\mytest\MyApplication\app\build/intermediates/res/resources.zip -G E:\work\my\open_source\selfworks\plug\mytest\MyApplication\app\build/intermediates/res/aapt-rules.txt --custom-package net.cn.com.testmyplug -0 apk --generate-dependencies --extra-packages android.support.v7.appcompat" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-Wno-format-y2k" />
+					<Add option="-DSTATIC_ANDROIDFW_FOR_TOOLS" />
+					<Add option="-D_STDATOMIC_HAVE_ATOMIC" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-DZLIB_CONST" />
+					<Add option="-D_WIN64" />
+					<Add directory="../aapt-libs/androidfw/include" />
+					<Add directory="../aapt-libs/utils/include" />
+					<Add directory="../aapt-libs/log/include" />
+					<Add directory="../aapt-libs/cutils/include" />
+					<Add directory="../aapt-libs/base/include" />
+					<Add directory="../aapt-libs/androidfw/include/zlib" />
+					<Add directory="../aapt-libs/utils/include/cutils" />
+					<Add directory="../aapt-libs/expat/src/lib" />
+					<Add directory="../aapt-libs/png/src" />
+					<Add directory="src" />
+					<Add directory="../aapt-libs/base/src/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../aapt-libs/androidfw/bin/Debug/libandroidfw.a" />
+					<Add library="../aapt-libs/cutils/bin/Debug/libcutils.a" />
+					<Add library="../aapt-libs/expat/bin/Debug/libexpat.a" />
+					<Add library="../aapt-libs/log/bin/Debug/liblog.a" />
+					<Add library="../aapt-libs/png/bin/Debug/libpng.a" />
+					<Add library="../aapt-libs/utils/bin/Debug/libutils.a" />
+					<Add library="../aapt-libs/z/bin/Debug/libz.a" />
+					<Add library="../aapt-libs/ziparchive-host/bin/Debug/libziparchive-host.a" />
+					<Add library="../aapt-libs/base/bin/Debug/libbase.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/aapt-apktool_v28" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-Wno-format-y2k" />
+					<Add option="-DSTATIC_ANDROIDFW_FOR_TOOLS" />
+					<Add option="-D_STDATOMIC_HAVE_ATOMIC" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-DZLIB_CONST" />
+					<Add option="-D_WIN64" />
+					<Add directory="../aapt-libs/androidfw/include" />
+					<Add directory="../aapt-libs/utils/include" />
+					<Add directory="../aapt-libs/log/include" />
+					<Add directory="../aapt-libs/cutils/include" />
+					<Add directory="../aapt-libs/base/include" />
+					<Add directory="../aapt-libs/androidfw/include/zlib" />
+					<Add directory="../aapt-libs/utils/include/cutils" />
+					<Add directory="../aapt-libs/expat/src/lib" />
+					<Add directory="../aapt-libs/png/src" />
+					<Add directory="src" />
+					<Add directory="../aapt-libs/base/src/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../aapt-libs/log/bin/Release/liblog.a" />
+					<Add library="../aapt-libs/androidfw/bin/Release/libandroidfw.a" />
+					<Add library="../aapt-libs/cutils/bin/Release/libcutils.a" />
+					<Add library="../aapt-libs/expat/bin/Release/libexpat.a" />
+					<Add library="../aapt-libs/png/bin/Release/libpng.a" />
+					<Add library="../aapt-libs/utils/bin/Release/libutils.a" />
+					<Add library="../aapt-libs/z/bin/Release/libz.a" />
+					<Add library="../aapt-libs/ziparchive-host/bin/Release/libziparchive-host.a" />
+					<Add library="../aapt-libs/base/bin/Release/libbase.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/AaptAssets.cpp" />
+		<Unit filename="src/AaptAssets.h" />
+		<Unit filename="src/AaptConfig.cpp" />
+		<Unit filename="src/AaptConfig.h" />
+		<Unit filename="src/AaptUtil.cpp" />
+		<Unit filename="src/AaptUtil.h" />
+		<Unit filename="src/AaptXml.cpp" />
+		<Unit filename="src/AaptXml.h" />
+		<Unit filename="src/ApkBuilder.cpp" />
+		<Unit filename="src/ApkBuilder.h" />
+		<Unit filename="src/Bundle.h" />
+		<Unit filename="src/CacheUpdater.h" />
+		<Unit filename="src/Command.cpp" />
+		<Unit filename="src/ConfigDescription.h" />
+		<Unit filename="src/CrunchCache.cpp" />
+		<Unit filename="src/CrunchCache.h" />
+		<Unit filename="src/DirectoryWalker.h" />
+		<Unit filename="src/FileFinder.cpp" />
+		<Unit filename="src/FileFinder.h" />
+		<Unit filename="src/Images.cpp" />
+		<Unit filename="src/Images.h" />
+		<Unit filename="src/IndentPrinter.h" />
+		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/Main.h" />
+		<Unit filename="src/OutputSet.h" />
+		<Unit filename="src/Package.cpp" />
+		<Unit filename="src/Resource.cpp" />
+		<Unit filename="src/ResourceFilter.cpp" />
+		<Unit filename="src/ResourceFilter.h" />
+		<Unit filename="src/ResourceIdCache.cpp" />
+		<Unit filename="src/ResourceIdCache.h" />
+		<Unit filename="src/ResourceTable.cpp" />
+		<Unit filename="src/ResourceTable.h" />
+		<Unit filename="src/SdkConstants.h" />
+		<Unit filename="src/SourcePos.cpp" />
+		<Unit filename="src/SourcePos.h" />
+		<Unit filename="src/StringPool.cpp" />
+		<Unit filename="src/StringPool.h" />
+		<Unit filename="src/Symbol.h" />
+		<Unit filename="src/WorkQueue.cpp" />
+		<Unit filename="src/WorkQueue.h" />
+		<Unit filename="src/XMLNode.cpp" />
+		<Unit filename="src/XMLNode.h" />
+		<Unit filename="src/ZipEntry.cpp" />
+		<Unit filename="src/ZipEntry.h" />
+		<Unit filename="src/ZipFile.cpp" />
+		<Unit filename="src/ZipFile.h" />
+		<Unit filename="src/pseudolocalize.cpp" />
+		<Unit filename="src/pseudolocalize.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

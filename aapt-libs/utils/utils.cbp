@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="utils" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/utils" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-DMB_CUR_MAX=1" />
+					<Add option="-DLIBUTILS_NATIVE=1" />
+					<Add option="-DUSE_MINGW" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add directory="include" />
+					<Add directory="include/cutils" />
+					<Add directory="include/safe-iop" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/utils" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-Wunused" />
+					<Add option="-DMB_CUR_MAX=1" />
+					<Add option="-DLIBUTILS_NATIVE=1" />
+					<Add option="-DUSE_MINGW" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add directory="include" />
+					<Add directory="include/cutils" />
+					<Add directory="include/safe-iop" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../log/bin/Release/liblog.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include/android/api-level.h" />
+		<Unit filename="include/android/log.h" />
+		<Unit filename="include/backtrace/Backtrace.h" />
+		<Unit filename="include/backtrace/BacktraceMap.h" />
+		<Unit filename="include/backtrace/backtrace_constants.h" />
+		<Unit filename="include/cutils/android_reboot.h" />
+		<Unit filename="include/cutils/ashmem.h" />
+		<Unit filename="include/cutils/atomic.h" />
+		<Unit filename="include/cutils/bitops.h" />
+		<Unit filename="include/cutils/compiler.h" />
+		<Unit filename="include/cutils/config_utils.h" />
+		<Unit filename="include/cutils/debugger.h" />
+		<Unit filename="include/cutils/fs.h" />
+		<Unit filename="include/cutils/hashmap.h" />
+		<Unit filename="include/cutils/iosched_policy.h" />
+		<Unit filename="include/cutils/jstring.h" />
+		<Unit filename="include/cutils/klog.h" />
+		<Unit filename="include/cutils/list.h" />
+		<Unit filename="include/cutils/log.h" />
+		<Unit filename="include/cutils/memory.h" />
+		<Unit filename="include/cutils/misc.h" />
+		<Unit filename="include/cutils/multiuser.h" />
+		<Unit filename="include/cutils/native_handle.h" />
+		<Unit filename="include/cutils/open_memstream.h" />
+		<Unit filename="include/cutils/partition_utils.h" />
+		<Unit filename="include/cutils/process_name.h" />
+		<Unit filename="include/cutils/properties.h" />
+		<Unit filename="include/cutils/qtaguid.h" />
+		<Unit filename="include/cutils/record_stream.h" />
+		<Unit filename="include/cutils/sched_policy.h" />
+		<Unit filename="include/cutils/sockets.h" />
+		<Unit filename="include/cutils/stdatomic.h" />
+		<Unit filename="include/cutils/str_parms.h" />
+		<Unit filename="include/cutils/threads.h" />
+		<Unit filename="include/cutils/trace.h" />
+		<Unit filename="include/cutils/uevent.h" />
+		<Unit filename="include/log/event_tag_map.h" />
+		<Unit filename="include/log/log.h" />
+		<Unit filename="include/log/log_read.h" />
+		<Unit filename="include/log/logd.h" />
+		<Unit filename="include/log/logger.h" />
+		<Unit filename="include/log/logprint.h" />
+		<Unit filename="include/log/uio.h" />
+		<Unit filename="include/safe-iop/safe_iop.h" />
+		<Unit filename="include/sys/cdefs.h" />
+		<Unit filename="include/sys/cdefs_elf.h" />
+		<Unit filename="include/system/camera.h" />
+		<Unit filename="include/system/graphics.h" />
+		<Unit filename="include/system/radio.h" />
+		<Unit filename="include/system/thread_defs.h" />
+		<Unit filename="include/system/window.h" />
+		<Unit filename="include/utils/AndroidThreads.h" />
+		<Unit filename="include/utils/Atomic.h" />
+		<Unit filename="include/utils/BitSet.h" />
+		<Unit filename="include/utils/BlobCache.h" />
+		<Unit filename="include/utils/ByteOrder.h" />
+		<Unit filename="include/utils/CallStack.h" />
+		<Unit filename="include/utils/Compat.h" />
+		<Unit filename="include/utils/Condition.h" />
+		<Unit filename="include/utils/Debug.h" />
+		<Unit filename="include/utils/Endian.h" />
+		<Unit filename="include/utils/Errors.h" />
+		<Unit filename="include/utils/FileMap.h" />
+		<Unit filename="include/utils/Flattenable.h" />
+		<Unit filename="include/utils/Functor.h" />
+		<Unit filename="include/utils/JenkinsHash.h" />
+		<Unit filename="include/utils/KeyedVector.h" />
+		<Unit filename="include/utils/LinearTransform.h" />
+		<Unit filename="include/utils/List.h" />
+		<Unit filename="include/utils/Log.h" />
+		<Unit filename="include/utils/Looper.h" />
+		<Unit filename="include/utils/LruCache.h" />
+		<Unit filename="include/utils/Mutex.h" />
+		<Unit filename="include/utils/NativeHandle.h" />
+		<Unit filename="include/utils/Printer.h" />
+		<Unit filename="include/utils/ProcessCallStack.h" />
+		<Unit filename="include/utils/PropertyMap.h" />
+		<Unit filename="include/utils/RWLock.h" />
+		<Unit filename="include/utils/RefBase.h" />
+		<Unit filename="include/utils/Singleton.h" />
+		<Unit filename="include/utils/SortedVector.h" />
+		<Unit filename="include/utils/StopWatch.h" />
+		<Unit filename="include/utils/String16.h" />
+		<Unit filename="include/utils/String8.h" />
+		<Unit filename="include/utils/StrongPointer.h" />
+		<Unit filename="include/utils/SystemClock.h" />
+		<Unit filename="include/utils/Thread.h" />
+		<Unit filename="include/utils/ThreadDefs.h" />
+		<Unit filename="include/utils/Timers.h" />
+		<Unit filename="include/utils/Tokenizer.h" />
+		<Unit filename="include/utils/Trace.h" />
+		<Unit filename="include/utils/TypeHelpers.h" />
+		<Unit filename="include/utils/Unicode.h" />
+		<Unit filename="include/utils/Vector.h" />
+		<Unit filename="include/utils/VectorImpl.h" />
+		<Unit filename="include/utils/ashmem.h" />
+		<Unit filename="include/utils/misc.h" />
+		<Unit filename="include/utils/threads.h" />
+		<Unit filename="src/CallStack.cpp" />
+		<Unit filename="src/FileMap.cpp" />
+		<Unit filename="src/JenkinsHash.cpp" />
+		<Unit filename="src/LinearTransform.cpp" />
+		<Unit filename="src/Log.cpp" />
+		<Unit filename="src/NativeHandle.cpp" />
+		<Unit filename="src/Printer.cpp" />
+		<Unit filename="src/PropertyMap.cpp" />
+		<Unit filename="src/RefBase.cpp" />
+		<Unit filename="src/SharedBuffer.cpp" />
+		<Unit filename="src/SharedBuffer.h" />
+		<Unit filename="src/Static.cpp" />
+		<Unit filename="src/StopWatch.cpp" />
+		<Unit filename="src/String16.cpp" />
+		<Unit filename="src/String8.cpp" />
+		<Unit filename="src/SystemClock.cpp" />
+		<Unit filename="src/Threads.cpp" />
+		<Unit filename="src/Timers.cpp" />
+		<Unit filename="src/Tokenizer.cpp" />
+		<Unit filename="src/Unicode.cpp" />
+		<Unit filename="src/VectorImpl.cpp" />
+		<Unit filename="src/misc.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

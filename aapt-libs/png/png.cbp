@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="png" />
+		<Option pch_mode="2" />
+		<Option compiler="copy_of_gnu_gcc_compiler_64" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/png" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add directory="../z/src" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/png" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Option projectCompilerOptionsRelation="-1" />
+				<Option projectLinkerOptionsRelation="-1" />
+				<Option projectResourceIncludeDirsRelation="-1" />
+				<Option projectLibDirsRelation="-1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add directory="../z/src" />
+				</Compiler>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="src/png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/png.h" />
+		<Unit filename="src/pngconf.h" />
+		<Unit filename="src/pngdebug.h" />
+		<Unit filename="src/pngerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pnginfo.h" />
+		<Unit filename="src/pnglibconf.h" />
+		<Unit filename="src/pngmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngpread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngpriv.h" />
+		<Unit filename="src/pngread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngrio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngrtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngrutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngstruct.h" />
+		<Unit filename="src/pngtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngusr.h" />
+		<Unit filename="src/pngwio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngwtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pngwutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

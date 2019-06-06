@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="base" />
+		<Option pch_mode="2" />
+		<Option compiler="null" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/base" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-DZLIB_CONST" />
+					<Add option="-D_WIN64" />
+					<Add directory="src/include" />
+					<Add directory="include" />
+					<Add directory="../cutils/include" />
+					<Add directory="../log/include" />
+					<Add directory="../utils/include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/base" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="cb1_tdm_gnu_gcc_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add option="-D__cplusplus=201103L" />
+					<Add option="-D__STDC_FORMAT_MACROS" />
+					<Add option="-DZLIB_CONST" />
+					<Add option="-D_WIN64" />
+					<Add directory="src/include" />
+					<Add directory="include" />
+					<Add directory="../cutils/include" />
+					<Add directory="../log/include" />
+					<Add directory="../utils/include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="src/errors_windows.cpp" />
+		<Unit filename="src/file.cpp" />
+		<Unit filename="src/include/android-base/errors.h" />
+		<Unit filename="src/include/android-base/file.h" />
+		<Unit filename="src/include/android-base/logging.h" />
+		<Unit filename="src/include/android-base/macros.h" />
+		<Unit filename="src/include/android-base/memory.h" />
+		<Unit filename="src/include/android-base/parseint.h" />
+		<Unit filename="src/include/android-base/parsenetaddress.h" />
+		<Unit filename="src/include/android-base/stringprintf.h" />
+		<Unit filename="src/include/android-base/strings.h" />
+		<Unit filename="src/include/android-base/test_utils.h" />
+		<Unit filename="src/include/android-base/thread_annotations.h" />
+		<Unit filename="src/include/android-base/unique_fd.h" />
+		<Unit filename="src/include/android-base/utf8.h" />
+		<Unit filename="src/logging.cpp" />
+		<Unit filename="src/parsenetaddress.cpp" />
+		<Unit filename="src/stringprintf.cpp" />
+		<Unit filename="src/strings.cpp" />
+		<Unit filename="src/test_utils.cpp" />
+		<Unit filename="src/utf8.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

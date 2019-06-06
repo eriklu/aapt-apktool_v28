@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="../aapt-libs/androidfw/androidfw.cbp" />
+		<Project filename="../aapt-libs/utils/utils.cbp" />
+		<Project filename="../aapt-libs/log/log.cbp" />
+		<Project filename="../aapt-libs/cutils/cutils.cbp" />
+		<Project filename="../aapt-libs/ziparchive-host/ziparchive-host.cbp" />
+		<Project filename="../aapt-libs/base/base.cbp" />
+		<Project filename="../aapt-libs/png/png.cbp" />
+		<Project filename="../aapt-libs/z/z.cbp" />
+		<Project filename="../aapt-libs/expat/expat.cbp" />
+		<Project filename="aapt-v24.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
